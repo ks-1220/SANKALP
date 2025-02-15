@@ -1,0 +1,329 @@
+/* Navbar css */
+
+
+/*======================================
+        Adding Patient Tracker 
+========================================*/
+.tracker{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* border: 2px solid grey; */
+  background-color: rgb(238, 251, 254);
+  padding: 1rem;
+  overflow-x: hidden;
+}
+.tracker-head{
+  padding-left: 10px;
+  font-size: 1.7rem;
+  color: #1f3560;
+}
+
+
+.tracker-head-2{
+  padding: 10px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color:#1f3560;
+}
+#chart-container-1 { 
+  width: 100%; 
+  max-width: 620px !important; /* Adjust this value to reduce the size */ 
+  border: 2px solid #1f3560;
+  border-radius: 1rem;
+  box-shadow: 0px 6px #1f3560;
+  margin-right: 2rem !important;
+} 
+
+#chart-container-2{
+  width: 100%;
+  max-width: 400px !important; 
+  margin: auto;
+  border: 2px solid #1f3560;
+  border-radius: 1rem;
+  box-shadow: 0px 6px #1f3560;
+  padding: 0.5rem;
+}
+
+canvas { 
+  width: 100% !important; 
+  height: auto !important; 
+}
+
+.bar-head, .donut-head{
+  text-align: center;
+}
+
+.wait-head{
+  text-align: center;
+}
+
+.main-heading{
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.tracker-elements-1{
+  display: flex;
+  /* border: 2px solid black; */
+  padding: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.calendar-style{
+  height: 350px;
+  width:450px;
+}
+
+#waitlist-container{
+  color: #e12454;
+  border: 2px solid #e12454;
+  border-radius: 1rem;
+  width: 55%;
+  padding: 1rem;
+}
+
+.legend{
+  border: 2px solid black;
+  border-radius: 20px;
+  /* padding: 0.2rem; */
+  text-align: center;
+  margin: 1rem;
+}
+
+.counter-container{
+  /* border: 2px solid green; */
+  text-align: center;
+  color: #000;
+  width: 30%;
+}
+
+.sub-head{
+  text-align: center;
+  font-size: 1.6rem;
+  color: #1f3560;
+}
+
+.flap-container{
+  width: 25%;
+  /* margin: 1rem 0px 0px 0px; */
+  position: relative;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.flap{
+  /* border: 2px solid green; */
+  height: 3rem;
+  background-color: rgb(238, 251, 254) !important;
+  color: #1f3560 !important;
+  font-size: 1.8rem;
+  font-weight: 800;
+  font-family: "Ubuntu", sans-serif;
+  animation: flap 2s ease-in-out infinite alternate; display: flex; 
+  align-items: center; 
+  justify-content: center;
+  line-height: 2rem; 
+}
+
+.flap-head{
+  padding-right: 0.5rem;
+  /* background-color: rgb(247, 251, 252); */
+}
+
+@keyframes flap{
+  0%{
+    transform: rotateX(0deg);
+  }
+  100%{
+    transform: rotateX(-90deg);
+  }
+}
+
+.icon-outline{
+  color: #e12454;
+}
+
+#waiting-list li { 
+  margin-bottom: 5px;  
+} 
+.info-line, .estimated-line { 
+  margin-top: 5px;  
+  margin-bottom: 5px; 
+  color: #000;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.tracker-elements-2{
+  margin: 0px 3rem 0px 3rem;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+}
+
+.calendar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit-btn{
+  border:2px solid #000 !important;
+  border-radius: 10px;
+  background-color: transparent;
+  height: 2rem;
+  margin: 1rem 0px 0px 0px;
+  font-size: 1rem;
+}
+
+#submit-btn:hover{
+  border: none;
+  cursor: pointer;
+  background-color: #e12454;
+  color: white;
+  transform: scaleX(1.1);
+}
+
+
+/* Appointment Button */
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  padding: .75rem 2rem;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all .35s ease;
+}
+
+.btn-main-2 {
+  background: #e12454;
+  color: #fff;
+  border-color: #e12454;
+  text-decoration: none;
+}
+
+.btn-main-2:hover {
+  background: #223a66;
+  color: #fff;
+  border-color: #223a66;
+}
+
+.btn-round {
+  border-radius: 4px;
+}
+
+.btn-round-full {
+  border-radius: 50px;
+}
+
+/* #Time{
+  padding: 0.2rem;
+}
+
+.time-section{
+  margin: 1.5rem;
+} */
+.initial-head{
+  color: #000;
+  padding-left: 1rem;
+}
+
+.tracker-elements-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 650px tracker  elemenst -2 */
+
+@media(max-width:900px) and (min-width:500px) {
+  .tracker-elements-1{
+    flex-direction: column;
+  }
+  #waitlist-container{
+    margin: auto;
+    width: 80%;
+  }
+  .legend{
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .tracker-elements-2{
+    flex-direction: column;
+  }
+  #chart-container-1{
+    margin: auto;
+    max-width: 400px;
+  }
+  #chart-container-2{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 400px;
+  }
+  .flap-head{
+    font-size: 1.5rem;
+    background-color: rgb(247, 251, 252);
+  }
+  .counter-container{
+    width: 100%;
+  }
+  .initial-head{
+    padding-left: 1.2rem;
+  }
+}
+
+/*Good till 330px */
+@media(max-width:500px) and (min-width:300px) {
+  .tracker-elements-1{
+    flex-direction: column;
+  }
+  #waitlist-container{
+    margin: auto;
+    width: 90% !important;
+  }
+  .calendar-style{
+    height: 400px;
+    width:300px;
+  }
+  .tracker-elements-2{
+    flex-direction: column;
+  }
+  #chart-container-1{
+    margin: auto;
+    max-width: 400px;
+  }
+  #chart-container-2{
+    margin: auto;
+    margin-top: 2rem !important;
+    max-width: 400px;
+  }
+  .flap-head{
+    background-color: rgb(238, 251, 254);
+    font-size: 1.3rem !important;
+    line-height: 1rem !important;
+  }
+  .counter-container{
+    width: 100%;
+  }
+  .happy-patients{
+    font-size: 1.3rem;
+  }
+}
+
+

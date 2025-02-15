@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/tracker.css">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+  <!-- Slick Slider  CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+    <header>
+		<div class="header-top-bar">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<ul class="top-bar-info list-inline-item pl-0 mb-0">
+							<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@medhelp.com</a></li>
+							<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address Ta-134/A, New Delhi, India</li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
+							<a href="tel:+91-11-456-7890" >
+								<span>Call Now : </span>
+								<span class="h4">+91-11-456-7890</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navigation" id="navbar">
+			<div class="container">
+				  <a class="navbar-brand" href="index.html">
+					<img width="200" height="auto" src="images for med\main.jpg" alt="" class="img-fluid">
+				  </a>
+	
+				  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="icofont-navigation-menu"></span>
+			  </button>
+		  
+			  <div class="collapse navbar-collapse" id="navbarmain">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				  </li>
+				   <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+				   
+				   
+					<li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+	
+					<li class="nav-item">
+						<a class="nav-link" href="department.html" aria-haspopup="true" aria-expanded="false">Department</a>
+	
+					  </li>
+	
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i class="icofont-thin-down"></i></a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown03">
+							<li><a class="dropdown-item" href="doctor.html">Doctors</a></li>
+							
+							<li><a class="dropdown-item" href="appoinment.html">Appointment</a></li>
+						</ul>
+					  </li>
+	
+					  
+	
+                      <li class="nav-item"><a class="nav-link" href="blog-sidebar.html">Blog</a></li>
+					  <li class="nav-item">
+						<a class="nav-link btn btn-primary tracker-btn" href="tracker.html">Tracker</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn login-btn" href="login.html">Log In</a>
+					</li>
+				   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+	</header>
+    <!--Adding calendar-->
+    <section class="tracker">
+	<div class="section-heading">
+		<h3 class="main-heading"><i class="fa-regular fa-user"></i><span class="tracker-head">TRACK MY TURN</span>
+        <br>
+    <span class="sub-head">Patient's Personalised Tracker</span></h3>
+	</div>
+
+    <!--Tracker section 1 starts !-->
+	<div class="tracker-elements-1">
+		<div class="calendar-section">
+            <div class="calendar">
+	        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FKolkata&showPrint=0&src=MTliNGQ2NTk2ZTM5MTMxMWVkZmVhZThjNWYyOTdlMmQwYWZlMjc5NzIyZGJjM2Q3NjBhNmMwMDRiM2ZiMmNjMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23F4511E&color=%2333B679" style="border:solid 1px #777" class="calendar-style" frameborder="0" scrolling="no"></iframe>
+       </div>
+
+       <div class="legend">
+        <i class="fa-solid fa-circle" style="color:green; padding-left: 1rem;"></i><span class="purple" style="color: #000;">Doctor Available</span>
+        <i class="fa-solid fa-circle" style="color: rgb(219, 3, 3);"></i><span class="red" style="color: #000;">Doctor Unavailable</span>
+        <br>
+        <i class="fa-solid fa-circle" style="color: rgb(158, 10, 158); padding-left: 1rem;"></i><span class="purple" style="color: #000;">Personal Leave</span>
+       </div>
+    </div>
+
+	   <!--Waiting List & Doctor Availability-->
+	<div id="waitlist-container">
+        <h3 class="wait-head">Check Patient Queue Before Your Visit</h3>
+
+        <form class="waitingList-form">
+            <label for="Date">Enter Date of Visit:</label>
+            <input type="date" name="enter date" id="Date">
+            <br>
+            <span class="time-section">
+                <label for="Time">Timings Available:</label>
+            <select name="time" id="Time">
+                <option value="" disabled selected>Select the time slot</option>
+                <option value="12-2">12PM - 2PM</option>
+                <option value="3-4">3PM - 4PM</option>
+                <option value="7-9">7PM - 9PM</option>
+            </select>
+            </span>
+
+            <br>
+            
+            <label for="doctor">Doctor's Name: </label>
+            <select name="Doctors-name" id="doc">
+                <option value="" disabled selected>Select Doctor</option>
+                <option value="">Dr. Brahm Datt Pathak</option>
+                <option value="">Dr. Meenal Sinha</option>
+                <option value="">Dr. Amit Trivedi</option>
+                <option value="">Dr. Anchal Sahu</option>
+                <option value="">Dr. Anurag Kashyap</option>
+                <option value="">Dr. Anushka Verma</option>
+            </select>
+
+			<br>
+            <input type="submit" value="Get the Waiting List" id="submit-btn">
+        </form>
+        <hr>
+        <!-- Display of waiting list-->
+        <div class="list" >
+            <h5>LOADING BOOKED TIME SLOTS...... </h5>
+        <ul id="waiting-list">
+            <!-- Waiting list will come here-->
+        </ul>
+        </div>
+		<!--Redirect to Appointment Page-->
+		<a href="appoinment.html" class="btn btn-main-2 btn-round-full mt-3">Make an Appoinment<i class="icofont-simple-right ml-2  "></i></a>
+        </div>
+	</div>
+
+    <!--Tracker section1 ends !-->
+    <hr>
+	<br>
+    <br>
+
+    <div class="flap">
+		<span class="flap-head">Patient Satisfaction & Visit Metrics</span><i class="fa-solid fa-chart-simple"></i>
+    </div>
+	<div class="tracker-elements-2">
+		<!-- Line Chart for tracking Monthly Patient Visits -->
+	    <div id="chart-container-1">
+			<h5 class="bar-head"><span class="tracker-head-2">Monthly Patient Visits</span><i class="fa-regular fa-hospital" style="color: #1f3560;"></i></h5>
+            <canvas id="salesChart"></canvas>
+        </div>
+
+		<!--Pie Chart to show Customer Satisfaction-->
+		<div id="chart-container-2">
+			<h5 class="donut-head"><span class="tracker-head-2">Patient's Review</span><i class="fa-solid fa-star" style="color: #1f3560;"></i></h5>
+			<canvas id="customerSatisfactionChart" width="400" height="400"></canvas>
+		</div>
+	</div>
+</section>
+
+<div class="tracker-elements-3">
+        <div class="counter-container">
+				<i class="fa-regular fa-face-smile fa-3x icon-outline" style="padding-top: 2rem ;"></i>
+				<div id="happy-patients-counter" class="counter" style="font-size: 2rem; font-weight: bold;"></div>
+				<h3><span style="padding-right: 0.5rem;" class="happy-patients">Happy Patients This Year</span><i class="fa-solid fa-thumbtack"></i></h3>
+			</div>
+    </div>
+
+<!--Footer-->
+<!-- footer Start -->
+<footer class="footer section gray-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 mr-auto col-sm-6">
+				<div class="widget mb-5 mb-lg-0">
+					<div class="logo mb-4">
+						<img width="200" height="auto" src="images for med\main.jpg" alt="" class="img-fluid">
+					</div>
+					<p>Empowering healthier lives through trusted medical care and support. Your well-being is our priority, and we are dedicated to providing reliable healthcare information and services.</p>
+
+					<ul class="list-inline footer-socials mt-4">
+						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="widget mb-5 mb-lg-0">
+					<h4 class="text-capitalize mb-3">Department</h4>
+					<div class="divider mb-4"></div>
+
+					<ul class="list-unstyled footer-menu lh-35">
+						<li><a href="#">Surgery </a></li>
+						<li><a href="#">Wome's Health</a></li>
+						<li><a href="#">Radiology</a></li>
+						<li><a href="#">Cardioc</a></li>
+						<li><a href="#">Medicine</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="widget mb-5 mb-lg-0">
+					<h4 class="text-capitalize mb-3">Support</h4>
+					<div class="divider mb-4"></div>
+
+					<ul class="list-unstyled footer-menu lh-35">
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Company Support </a></li>
+						<li><a href="#">FAQuestions</a></li>
+						<li><a href="#">Company Licence</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="widget widget-contact mb-5 mb-lg-0">
+					<h4 class="text-capitalize mb-3">Get in Touch</h4>
+					<div class="divider mb-4"></div>
+
+					<div class="footer-contact-block mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-email mr-3"></i>
+							<span class="h6 mb-0">Support Available for 24/7</span>
+						</div>
+						<h4 class="mt-2"><a href="tel:+91-11-456-7890">support@medhelp.com</a></h4>
+					</div>
+
+					<div class="footer-contact-block">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-support mr-3"></i>
+							<span class="h6 mb-0">Mon to Fri : 08:30 - 12:00</span>
+						</div>
+						<h4 class="mt-2"><a href="tel:+91-11-456-7890">+91-11-456-7890</a></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-btm py-4 mt-5">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6">
+					<div class="copyright">
+						&copy; Copyright Reserved to <span class="text-color">MedHelp,</span> New Delhi, India.<a href="https://themefisher.com/" target="_blank"></a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
+						<form action="#" class="subscribe">
+							<input type="text" class="form-control" placeholder="Your Email address">
+							<a href="#" class="btn btn-main-2 btn-round-full">Subscribe</a>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<a class="backtop js-scroll-trigger" href="#top">
+						<i class="icofont-long-arrow-up"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!--Javascript CODE ------->
+<!-- Line Chart -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script>
+    var ctx = document.getElementById('salesChart').getContext('2d');
+    var salesChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            datasets: [{
+                label: 'Monthly Patient Visits in 2024',
+                data: [50, 80, 63, 85, 62, 70, 65, 72, 68, 56, 70],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1,
+				barThickness:20
+            }]
+        },
+        options: {
+			plugins:{
+				legend:{
+					display:false
+				}
+			},
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
+<!--Doughnut Chart-->
+<script>
+    var ctx = document.getElementById('customerSatisfactionChart').getContext('2d');
+    var browserUsageChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['5⭐', '4⭐', '3⭐', '2⭐', '1⭐'],
+            datasets: [{
+                data: [60, 25, 10, 4, 1],
+                backgroundColor: ['#e12454', 'green', '#F4B400', '#4285F4', '#DB4437'],
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+					display:true,
+                    position: 'right',
+					labels:{
+						color:'#000',
+						font:{
+							family:'Arial',
+							size:'13px',
+							weight:'700'
+						},
+					}
+                },
+            },
+            cutout: '80%' // This creates the hole in the center, making it a donut chart
+        }
+    });
+</script>
+
+<!--Patients Treated Per Year Counter-->
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+    const counter = document.getElementById('happy-patients-counter');
+    const duration = 3000; // Duration of the animation in milliseconds
+    const targetCount = 600; // Target number of happy patients
+    const increment = targetCount / (duration / 60); // Calculate increment per frame
+    let currentCount = 0;
+    let observer;
+
+    function updateCounter() {
+        if (currentCount < targetCount) {
+            currentCount += increment;
+            counter.textContent = Math.ceil(currentCount);
+            requestAnimationFrame(updateCounter);
+        } else {
+            counter.textContent = `${targetCount}+`;
+        }
+    }
+
+    function onIntersection(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                updateCounter();
+                observer.disconnect(); // Stop observing once the counter starts
+            }
+        });
+    }
+
+    observer = new IntersectionObserver(onIntersection, { threshold: 0.5 });
+    observer.observe(counter);
+});
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.waitingList-form');
+    const waitingList = document.getElementById('waiting-list');
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const date = document.getElementById('Date').value;
+        const time = document.getElementById('Time').value;
+
+        console.log(`Selected Date: ${date}`);
+        console.log(`Selected Time: ${time}`);
+
+        // Simulate fetching waiting list data
+        const waitingListData = {
+            '12-2': [
+                { time: '12:10 PM' },
+                { time: '12:30 PM' },
+                { time: '01:00 PM' }
+            ],
+            '3-4': [
+                { time: '03:05 PM' },
+                { time: '03:20 PM' },
+                { time: '03:40 PM' },
+                { time: '04:00 PM' },
+                { time: '04:20 PM' }
+            ],
+            '7-9': [
+                { time: '07:05 PM' },
+                { time: '07:25 PM' },
+                { time: '07:45 PM' },
+                { time: '08:00 PM' }
+            ]
+        };
+
+        waitingList.innerHTML = '';
+
+        if (waitingListData[time]) {
+            const patients = waitingListData[time];
+            patients.forEach(entry => {
+                const li = document.createElement('li');
+                li.textContent = `${entry.time}`;
+                waitingList.appendChild(li);
+            });
+            // Adding information about the number of patients in a paragraph
+            const infoP = document.createElement('p');
+            infoP.innerHTML = `<i class="fa-solid fa-hospital-user" style="color: green;"></i> ${patients.length} patients are lined up before you.`;
+            infoP.className = 'info-line';
+            waitingList.appendChild(infoP);
+
+            // Calculating and displaying the estimated appointment time in a paragraph
+            const lastAppointmentTime = patients[patients.length - 1].time;
+            const [hour, minutePart] = lastAppointmentTime.split(':');
+            let [minutes, ampm] = minutePart.split(' ');
+
+            let estimatedHour = parseInt(hour);
+            let estimatedMinutes = parseInt(minutes) + 20;  // Add 20 minutes
+
+            if (estimatedMinutes >= 60) {
+                estimatedMinutes -= 60;
+                estimatedHour += 1;
+            }
+
+            // Adjust for AM/PM
+            if (estimatedHour === 12) {
+                ampm = ampm === 'AM' ? 'PM' : 'AM';
+            } else if (estimatedHour > 12) {
+                estimatedHour -= 12;
+            }
+
+            const estimatedTime = `${estimatedHour}:${estimatedMinutes < 10 ? '0' + estimatedMinutes : estimatedMinutes} ${ampm}`;
+            const estimatedP = document.createElement('p');
+            estimatedP.innerHTML = `<i class="fa-solid fa-clock" style="color: #223a66;"></i> Your estimated appointment time is: ${estimatedTime}`; estimatedP.className = 'estimated-line';
+            waitingList.appendChild(estimatedP);
+        } else {
+            const li = document.createElement('li');
+            li.textContent = 'No waiting list available for the selected time slot.';
+            waitingList.appendChild(li);
+        }
+    });
+});
+
+</script>
+</body>
+</html>

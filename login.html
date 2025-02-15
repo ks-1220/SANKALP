@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/loginfile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+        <div class="signup">
+            <form id="signupForm">
+                <h4>
+                    <img src="images/final logo MedHelp.jpg" alt="Logo" class="logo"> 
+                </h4>
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <input type="text" name="txt" id="signupUsername" placeholder="User name" required>
+                <input type="email" name="email" id="signupEmail" placeholder="Email" required>
+                <input type="text" name="phone" id="signupPhone" placeholder="Phone Number" required pattern="\d{10}" title="Phone number must be 10 digits">
+                <input type="number" name="age" id="signupAge" placeholder="Age" required>
+                <input type="password" name="pswd" id="signupPassword" placeholder="Password" required>
+                <button type="button" onclick="signUp()">Sign up</button>
+                <div id="error-message" style="color: red; display: none; text-align: center; margin-top: 5px;">
+                    User already signed up!
+                </div>
+            </form>
+        </div>
+
+        <div class="login">
+            <form id="loginForm">
+                <label for="chk" aria-hidden="true">Login</label>
+                <input type="email" name="email" id="loginEmail" placeholder="Email" required>
+                <input type="password" name="pswd" id="loginPassword" placeholder="Password" required>
+                <button type="button" onclick="login()">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Function to handle user signup
+        function signUp() {
+            const username = document.getElementById("signupUsername").value;
+            const email = document.getElementById("signupEmail").value;
+            const phone = document.getElementById("signupPhone").value;
+            const age = document.getElementById("signupAge").value;
+            const password = document.getElementById("signupPassword").value;
+
+            // Check if all the fields are filled
+            if (!username || !email || !phone || !age || !password) {
+                alert("Please fill out all fields.");
+                return;
+            }
+
+            const phoneRegex = /^\d{10}$/;
+            if (!phoneRegex.test(phone)) {
+                alert("Phone number must be exactly 10 digits.");
+                return;
+            }
+            // Check if the email already exists in localStorage
+            const existingUser = localStorage.getItem(email);
+
+            if (existingUser) {
+                // Display error message if the user already exists
+                alert("User already signed up!");
+                document.getElementById("signupForm").reset();
+            } else {
+                // Create a new user object
+                const user = {
+                    username: username,
+                    email: email,
+                    phone: phone,
+                    age: age,
+                    password: password,
+                };
+
+                // Save the user data in localStorage
+                localStorage.setItem(email, JSON.stringify(user));
+                alert("Signup successful!");
+                document.getElementById("signupForm").reset();
+                document.getElementById("error-message").style.display = "none"; // Hide the error message if signup is successful
+            }
+        }
+
+        // Function to handle user login
+        function login() {
+            const email = document.getElementById("loginEmail").value;
+            const password = document.getElementById("loginPassword").value;
+        // Get user data from localStorage
+            const user = JSON.parse(localStorage.getItem(email));
+            if (user && user.password === password) {
+        // Redirect to index.html
+                window.location.href = "home.html";
+    
+            } else {
+                alert("Invalid email or password!");
+            }
+            document.getElementById("loginForm").reset();
+        }
+    </script>
+</body>
+</html>

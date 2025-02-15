@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    /* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
+    background-image: url('../images/loginbg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .main {
+    width: 350px;
+    height: 650px; /* Increased height to accommodate new fields */
+    background: red;
+    overflow: hidden;
+    /* background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover; */
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    backdrop-filter: blur(8px); /* Adds the blur effect */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent layer */
+    z-index: 1; /* Ensures it appears above the background */
+  }
+  
+  #chk {
+    display: none;
+  }
+  
+  .signup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; Added padding for spacing */
+    box-sizing: border-box;
+    /* margin-bottom: 10px; Adjusted margin for spacing */
+    transform: translateY(-20px);
+  }
+
+  .signup h4 {
+    font-size: 2.5em; 
+    margin: 20px auto; 
+    font-weight: bold; 
+    text-align: center;
+    background: linear-gradient(45deg, #fc2512, #062974); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    cursor: pointer;
+    transition: transform 0.5s ease, color 0.3s ease; 
+    font-family: 'Poppins', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    align-items: center; /* Vertically aligns items */
+    justify-content: center; /* Horizontally centers items */
+     /* Space between logo and text */
+    line-height: 1.2; 
+    
+
+}
+.signup h4 .logo {
+  width: 200px;
+  height: auto;
+  margin-right: 0px;
+  margin-top: 5px;
+  transform: translateY(10px);
+}
+
+
+.signup h4:hover {
+    transform: scale(1.1) rotate(0deg); /* Grow and tilt on hover */
+    color: #fff; /* Add fallback color on hover */
+}
+.signup h4 span {
+  transform: translateY(-5px); /* Moves "MedHelp" slightly up */
+}
+
+  
+  label {
+    color: #fff;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin-bottom:1px;
+    margin-top: 5px;;
+  }
+  
+  input {
+    width: 80%; 
+    height: 28px; 
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 15px auto;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  select {
+    width: 80%;
+    height: 40px; 
+    background: #e0dede;
+    margin: 15px auto;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 80%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #26085f;
+    font-size: 1em;
+    font-weight: bold;
+    /* margin-top: 10px; Reduced top margin */
+    /* margin-bottom: 15px; */
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #26085f;
+  }
+  
+  .login {
+    height: 600px;
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+    margin-top: 6rem;
+  }
+  
+  .login label {
+    color: #26085f;
+    transform: scale(.6);
+    padding-top: 15px;
+    
+  }
+  
+  #chk:checked ~ .login {
+    transform: translateY(-650px);
+  }
+  
+  #chk:checked ~ .login label {
+    margin:45px;
+    transform: scale(1);
+  }
+  
+  #chk:checked ~ .signup label {
+    transform: scale(.6);
+  }
+  
