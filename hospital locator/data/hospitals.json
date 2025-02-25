@@ -1,0 +1,20 @@
+[
+    {
+        "name": "City Hospital",
+        "lat": 28.6139,
+        "lon": 77.2090,
+        "equipment": "MRI, CT Scan",
+        "condition": "Good",
+        "reception": "+91-11-23456789",
+        "appointment": "http://cityhospital.example.com"
+    },
+    {
+        "name": "Metro Medical Center",
+        "lat": 28.6149,
+        "lon": 77.2080,
+        "equipment": "X-Ray, Ultrasound",
+        "condition": "Excellent",
+        "reception": "+91-11-98765432",
+        "appointment": "http://metromedical.example.com"
+    }
+]

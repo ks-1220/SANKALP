@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Locator</title>
+   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
+    
+ 
+  
+   
+  
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+  
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Icon Font Css -->
+    <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+    <!-- Slick Slider  CSS -->
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+  
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="hospital locator/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-top-bar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="top-bar-info list-inline-item pl-0 mb-0">
+                            <li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@sankalp.com</a></li>
+                
+                            <li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address Ta-134/A, New Delhi, India </li>
+              </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
+                            <a href="tel:+91-11-456-7890" >
+                                <span>Call Now : +91-11-456-7890</span>
+                  <span class="h4"></span>
+    
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navigation" id="navbar">
+            <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                      <img width="200" height="auto" src="download.png" alt="image not loaded" class="img-fluid">
+                  </a>
+    
+                  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icofont-navigation-menu"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarmain">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                   <li class="nav-item"><a class="nav-link" href="hero.html">About</a></li>
+                   
+                   
+                    <li class="nav-item"><a class="nav-link" href="service.html">Update</a></li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="department.html" aria-haspopup="true" aria-expanded="false">Department</a>
+    
+                      </li>
+    
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i class="icofont-thin-down"></i></a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                            <li><a class="dropdown-item" href="doctor.html">Doctors</a></li>
+                            
+                            <li><a class="dropdown-item" href="appoinment.html">Appointment</a></li>
+                        </ul>
+                      </li>
+    
+                      
+                    <li class="nav-item"><a class="nav-link" href="blog-sidebar.html">Future</a></li>
+                   
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-primary tracker-btn" href="login.html">Tracker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn login-btn" href="login.html">Log In</a>
+                    </li>
+                   <li class="nav-item"><a class="nav-link" href="contact.html">Manage</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+        
+    <h1>Hospital Locator</h1>
+
+    <!-- Location Selection -->
+    <div class="location-container">
+        <label>Select Location:</label>
+        <select id="location-mode">
+            <option value="auto">Use My Location</option>
+            <option value="manual">Enter Manually</option>
+        </select>
+        <input type="text" id="manual-location" placeholder="Enter location" style="display: none;">
+        <button id="detect-location">Detect</button>
+    </div>
+
+    <!-- Filters -->
+    <div class="filter-container">
+        <label>Select Equipment:</label>
+        <select id="equipment">
+            <option value="all">Any</option>
+            <option value="ECG">ECG Machine</option>
+            <option value="Oxygen">Oxygen</option>
+            <option value="Beds">Beds</option>
+        </select>
+
+        <label>Sort by:</label>
+        <select id="sort">
+            <option value="nearest">Nearest Hospital</option>
+            <option value="equipment">Equipment Availability</option>
+        </select>
+
+        <button id="search">Search</button>
+    </div>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Hospital Table -->
+    <table id="hospital-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Equipment</th>
+                <th>Condition</th>
+                <th>Contact</th>
+                <th>Distance</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="hospital locator/components/map.js"></script>
+    <script src="hospital locator/components/location.js"></script>
+    <script src="hospital locator/components/table.js"></script>
+    <script src="hospital locator/script.js"></script>
+
+</body>
+</html>
