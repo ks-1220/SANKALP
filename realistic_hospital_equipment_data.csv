@@ -1,0 +1,751 @@
+Hospital Name,Timestamp,Equipment Name,Total Count,Remaining Count,Usage Rate,Days
+Apollo Hospital,2025-01-01,ECG Machines,152,148,4,0
+Apollo Hospital,2025-01-02,ECG Machines,152,135,13,1
+Apollo Hospital,2025-01-03,ECG Machines,152,124,11,2
+Apollo Hospital,2025-01-04,ECG Machines,152,116,8,3
+Apollo Hospital,2025-01-05,ECG Machines,152,103,13,4
+Apollo Hospital,2025-01-06,ECG Machines,152,98,5,5
+Apollo Hospital,2025-01-07,ECG Machines,152,91,7,6
+Apollo Hospital,2025-01-08,ECG Machines,152,81,10,7
+Apollo Hospital,2025-01-09,ECG Machines,152,78,3,8
+Apollo Hospital,2025-01-10,ECG Machines,152,71,7,9
+Apollo Hospital,2025-01-11,ECG Machines,152,60,11,10
+Apollo Hospital,2025-01-12,ECG Machines,152,49,11,11
+Apollo Hospital,2025-01-13,ECG Machines,152,41,8,12
+Apollo Hospital,2025-01-14,ECG Machines,152,36,5,13
+Apollo Hospital,2025-01-15,ECG Machines,152,32,4,14
+Apollo Hospital,2025-01-16,ECG Machines,152,24,8,15
+Apollo Hospital,2025-01-17,ECG Machines,152,16,8,16
+Apollo Hospital,2025-01-18,ECG Machines,152,13,3,17
+Apollo Hospital,2025-01-19,ECG Machines,152,7,6,18
+Apollo Hospital,2025-01-20,ECG Machines,152,2,5,19
+Apollo Hospital,2025-01-21,ECG Machines,152,0,2,20
+Apollo Hospital,2025-01-22,ECG Machines,152,0,8,21
+Apollo Hospital,2025-01-23,ECG Machines,152,0,12,22
+Apollo Hospital,2025-01-24,ECG Machines,152,0,14,23
+Apollo Hospital,2025-01-25,ECG Machines,152,0,6,24
+Apollo Hospital,2025-01-26,ECG Machines,152,0,2,25
+Apollo Hospital,2025-01-27,ECG Machines,152,0,12,26
+Apollo Hospital,2025-01-28,ECG Machines,152,0,5,27
+Apollo Hospital,2025-01-29,ECG Machines,152,0,1,28
+Apollo Hospital,2025-01-30,ECG Machines,152,0,12,29
+Apollo Hospital,2025-01-01,Beds,363,341,22,0
+Apollo Hospital,2025-01-02,Beds,363,316,25,1
+Apollo Hospital,2025-01-03,Beds,363,289,27,2
+Apollo Hospital,2025-01-04,Beds,363,261,28,3
+Apollo Hospital,2025-01-05,Beds,363,245,16,4
+Apollo Hospital,2025-01-06,Beds,363,230,15,5
+Apollo Hospital,2025-01-07,Beds,363,227,3,6
+Apollo Hospital,2025-01-08,Beds,363,220,7,7
+Apollo Hospital,2025-01-09,Beds,363,199,21,8
+Apollo Hospital,2025-01-10,Beds,363,190,9,9
+Apollo Hospital,2025-01-11,Beds,363,172,18,10
+Apollo Hospital,2025-01-12,Beds,363,168,4,11
+Apollo Hospital,2025-01-13,Beds,363,143,25,12
+Apollo Hospital,2025-01-14,Beds,363,129,14,13
+Apollo Hospital,2025-01-15,Beds,363,120,9,14
+Apollo Hospital,2025-01-16,Beds,363,94,26,15
+Apollo Hospital,2025-01-17,Beds,363,92,2,16
+Apollo Hospital,2025-01-18,Beds,363,72,20,17
+Apollo Hospital,2025-01-19,Beds,363,44,28,18
+Apollo Hospital,2025-01-20,Beds,363,37,7,19
+Apollo Hospital,2025-01-21,Beds,363,29,8,20
+Apollo Hospital,2025-01-22,Beds,363,0,35,21
+Apollo Hospital,2025-01-23,Beds,363,0,14,22
+Apollo Hospital,2025-01-24,Beds,363,0,17,23
+Apollo Hospital,2025-01-25,Beds,363,0,4,24
+Apollo Hospital,2025-01-26,Beds,363,0,2,25
+Apollo Hospital,2025-01-27,Beds,363,0,6,26
+Apollo Hospital,2025-01-28,Beds,363,0,4,27
+Apollo Hospital,2025-01-29,Beds,363,0,29,28
+Apollo Hospital,2025-01-30,Beds,363,0,18,29
+Apollo Hospital,2025-01-01,Oxygen Cylinders,267,255,12,0
+Apollo Hospital,2025-01-02,Oxygen Cylinders,267,253,2,1
+Apollo Hospital,2025-01-03,Oxygen Cylinders,267,243,10,2
+Apollo Hospital,2025-01-04,Oxygen Cylinders,267,239,4,3
+Apollo Hospital,2025-01-05,Oxygen Cylinders,267,225,14,4
+Apollo Hospital,2025-01-06,Oxygen Cylinders,267,209,16,5
+Apollo Hospital,2025-01-07,Oxygen Cylinders,267,194,15,6
+Apollo Hospital,2025-01-08,Oxygen Cylinders,267,186,8,7
+Apollo Hospital,2025-01-09,Oxygen Cylinders,267,172,14,8
+Apollo Hospital,2025-01-10,Oxygen Cylinders,267,149,23,9
+Apollo Hospital,2025-01-11,Oxygen Cylinders,267,124,25,10
+Apollo Hospital,2025-01-12,Oxygen Cylinders,267,116,8,11
+Apollo Hospital,2025-01-13,Oxygen Cylinders,267,95,21,12
+Apollo Hospital,2025-01-14,Oxygen Cylinders,267,79,16,13
+Apollo Hospital,2025-01-15,Oxygen Cylinders,267,66,13,14
+Apollo Hospital,2025-01-16,Oxygen Cylinders,267,48,18,15
+Apollo Hospital,2025-01-17,Oxygen Cylinders,267,33,15,16
+Apollo Hospital,2025-01-18,Oxygen Cylinders,267,12,21,17
+Apollo Hospital,2025-01-19,Oxygen Cylinders,267,0,24,18
+Apollo Hospital,2025-01-20,Oxygen Cylinders,267,0,25,19
+Apollo Hospital,2025-01-21,Oxygen Cylinders,267,0,13,20
+Apollo Hospital,2025-01-22,Oxygen Cylinders,267,0,9,21
+Apollo Hospital,2025-01-23,Oxygen Cylinders,267,0,15,22
+Apollo Hospital,2025-01-24,Oxygen Cylinders,267,0,13,23
+Apollo Hospital,2025-01-25,Oxygen Cylinders,267,0,1,24
+Apollo Hospital,2025-01-26,Oxygen Cylinders,267,0,25,25
+Apollo Hospital,2025-01-27,Oxygen Cylinders,267,0,7,26
+Apollo Hospital,2025-01-28,Oxygen Cylinders,267,0,9,27
+Apollo Hospital,2025-01-29,Oxygen Cylinders,267,0,24,28
+Apollo Hospital,2025-01-30,Oxygen Cylinders,267,0,1,29
+Apollo Hospital,2025-01-01,Ventilators,185,174,11,0
+Apollo Hospital,2025-01-02,Ventilators,185,157,17,1
+Apollo Hospital,2025-01-03,Ventilators,185,149,8,2
+Apollo Hospital,2025-01-04,Ventilators,185,146,3,3
+Apollo Hospital,2025-01-05,Ventilators,185,143,3,4
+Apollo Hospital,2025-01-06,Ventilators,185,142,1,5
+Apollo Hospital,2025-01-07,Ventilators,185,137,5,6
+Apollo Hospital,2025-01-08,Ventilators,185,127,10,7
+Apollo Hospital,2025-01-09,Ventilators,185,120,7,8
+Apollo Hospital,2025-01-10,Ventilators,185,111,9,9
+Apollo Hospital,2025-01-11,Ventilators,185,104,7,10
+Apollo Hospital,2025-01-12,Ventilators,185,95,9,11
+Apollo Hospital,2025-01-13,Ventilators,185,87,8,12
+Apollo Hospital,2025-01-14,Ventilators,185,75,12,13
+Apollo Hospital,2025-01-15,Ventilators,185,73,2,14
+Apollo Hospital,2025-01-16,Ventilators,185,72,1,15
+Apollo Hospital,2025-01-17,Ventilators,185,56,16,16
+Apollo Hospital,2025-01-18,Ventilators,185,51,5,17
+Apollo Hospital,2025-01-19,Ventilators,185,48,3,18
+Apollo Hospital,2025-01-20,Ventilators,185,36,12,19
+Apollo Hospital,2025-01-21,Ventilators,185,28,8,20
+Apollo Hospital,2025-01-22,Ventilators,185,25,3,21
+Apollo Hospital,2025-01-23,Ventilators,185,24,1,22
+Apollo Hospital,2025-01-24,Ventilators,185,21,3,23
+Apollo Hospital,2025-01-25,Ventilators,185,16,5,24
+Apollo Hospital,2025-01-26,Ventilators,185,1,15,25
+Apollo Hospital,2025-01-27,Ventilators,185,0,14,26
+Apollo Hospital,2025-01-28,Ventilators,185,0,3,27
+Apollo Hospital,2025-01-29,Ventilators,185,0,1,28
+Apollo Hospital,2025-01-30,Ventilators,185,0,5,29
+Apollo Hospital,2025-01-01,Syringes,267,244,23,0
+Apollo Hospital,2025-01-02,Syringes,267,230,14,1
+Apollo Hospital,2025-01-03,Syringes,267,223,7,2
+Apollo Hospital,2025-01-04,Syringes,267,214,9,3
+Apollo Hospital,2025-01-05,Syringes,267,199,15,4
+Apollo Hospital,2025-01-06,Syringes,267,184,15,5
+Apollo Hospital,2025-01-07,Syringes,267,174,10,6
+Apollo Hospital,2025-01-08,Syringes,267,161,13,7
+Apollo Hospital,2025-01-09,Syringes,267,142,19,8
+Apollo Hospital,2025-01-10,Syringes,267,135,7,9
+Apollo Hospital,2025-01-11,Syringes,267,118,17,10
+Apollo Hospital,2025-01-12,Syringes,267,98,20,11
+Apollo Hospital,2025-01-13,Syringes,267,94,4,12
+Apollo Hospital,2025-01-14,Syringes,267,89,5,13
+Apollo Hospital,2025-01-15,Syringes,267,66,23,14
+Apollo Hospital,2025-01-16,Syringes,267,59,7,15
+Apollo Hospital,2025-01-17,Syringes,267,46,13,16
+Apollo Hospital,2025-01-18,Syringes,267,31,15,17
+Apollo Hospital,2025-01-19,Syringes,267,20,11,18
+Apollo Hospital,2025-01-20,Syringes,267,16,4,19
+Apollo Hospital,2025-01-21,Syringes,267,3,13,20
+Apollo Hospital,2025-01-22,Syringes,267,0,7,21
+Apollo Hospital,2025-01-23,Syringes,267,0,19,22
+Apollo Hospital,2025-01-24,Syringes,267,0,22,23
+Apollo Hospital,2025-01-25,Syringes,267,0,2,24
+Apollo Hospital,2025-01-26,Syringes,267,0,10,25
+Apollo Hospital,2025-01-27,Syringes,267,0,13,26
+Apollo Hospital,2025-01-28,Syringes,267,0,25,27
+Apollo Hospital,2025-01-29,Syringes,267,0,21,28
+Apollo Hospital,2025-01-30,Syringes,267,0,6,29
+Fortis Hospital,2025-01-01,ECG Machines,333,305,28,0
+Fortis Hospital,2025-01-02,ECG Machines,333,293,12,1
+Fortis Hospital,2025-01-03,ECG Machines,333,281,12,2
+Fortis Hospital,2025-01-04,ECG Machines,333,261,20,3
+Fortis Hospital,2025-01-05,ECG Machines,333,231,30,4
+Fortis Hospital,2025-01-06,ECG Machines,333,201,30,5
+Fortis Hospital,2025-01-07,ECG Machines,333,190,11,6
+Fortis Hospital,2025-01-08,ECG Machines,333,158,32,7
+Fortis Hospital,2025-01-09,ECG Machines,333,132,26,8
+Fortis Hospital,2025-01-10,ECG Machines,333,109,23,9
+Fortis Hospital,2025-01-11,ECG Machines,333,81,28,10
+Fortis Hospital,2025-01-12,ECG Machines,333,56,25,11
+Fortis Hospital,2025-01-13,ECG Machines,333,49,7,12
+Fortis Hospital,2025-01-14,ECG Machines,333,19,30,13
+Fortis Hospital,2025-01-15,ECG Machines,333,18,1,14
+Fortis Hospital,2025-01-16,ECG Machines,333,17,1,15
+Fortis Hospital,2025-01-17,ECG Machines,333,0,25,16
+Fortis Hospital,2025-01-18,ECG Machines,333,0,27,17
+Fortis Hospital,2025-01-19,ECG Machines,333,0,30,18
+Fortis Hospital,2025-01-20,ECG Machines,333,0,25,19
+Fortis Hospital,2025-01-21,ECG Machines,333,0,20,20
+Fortis Hospital,2025-01-22,ECG Machines,333,0,13,21
+Fortis Hospital,2025-01-23,ECG Machines,333,0,9,22
+Fortis Hospital,2025-01-24,ECG Machines,333,0,3,23
+Fortis Hospital,2025-01-25,ECG Machines,333,0,7,24
+Fortis Hospital,2025-01-26,ECG Machines,333,0,6,25
+Fortis Hospital,2025-01-27,ECG Machines,333,0,8,26
+Fortis Hospital,2025-01-28,ECG Machines,333,0,27,27
+Fortis Hospital,2025-01-29,ECG Machines,333,0,9,28
+Fortis Hospital,2025-01-30,ECG Machines,333,0,30,29
+Fortis Hospital,2025-01-01,Beds,214,213,1,0
+Fortis Hospital,2025-01-02,Beds,214,194,19,1
+Fortis Hospital,2025-01-03,Beds,214,184,10,2
+Fortis Hospital,2025-01-04,Beds,214,172,12,3
+Fortis Hospital,2025-01-05,Beds,214,157,15,4
+Fortis Hospital,2025-01-06,Beds,214,148,9,5
+Fortis Hospital,2025-01-07,Beds,214,128,20,6
+Fortis Hospital,2025-01-08,Beds,214,111,17,7
+Fortis Hospital,2025-01-09,Beds,214,94,17,8
+Fortis Hospital,2025-01-10,Beds,214,74,20,9
+Fortis Hospital,2025-01-11,Beds,214,62,12,10
+Fortis Hospital,2025-01-12,Beds,214,55,7,11
+Fortis Hospital,2025-01-13,Beds,214,53,2,12
+Fortis Hospital,2025-01-14,Beds,214,50,3,13
+Fortis Hospital,2025-01-15,Beds,214,33,17,14
+Fortis Hospital,2025-01-16,Beds,214,28,5,15
+Fortis Hospital,2025-01-17,Beds,214,11,17,16
+Fortis Hospital,2025-01-18,Beds,214,0,17,17
+Fortis Hospital,2025-01-19,Beds,214,0,17,18
+Fortis Hospital,2025-01-20,Beds,214,0,2,19
+Fortis Hospital,2025-01-21,Beds,214,0,2,20
+Fortis Hospital,2025-01-22,Beds,214,0,5,21
+Fortis Hospital,2025-01-23,Beds,214,0,1,22
+Fortis Hospital,2025-01-24,Beds,214,0,1,23
+Fortis Hospital,2025-01-25,Beds,214,0,19,24
+Fortis Hospital,2025-01-26,Beds,214,0,2,25
+Fortis Hospital,2025-01-27,Beds,214,0,12,26
+Fortis Hospital,2025-01-28,Beds,214,0,6,27
+Fortis Hospital,2025-01-29,Beds,214,0,4,28
+Fortis Hospital,2025-01-30,Beds,214,0,11,29
+Fortis Hospital,2025-01-01,Oxygen Cylinders,233,216,17,0
+Fortis Hospital,2025-01-02,Oxygen Cylinders,233,210,6,1
+Fortis Hospital,2025-01-03,Oxygen Cylinders,233,205,5,2
+Fortis Hospital,2025-01-04,Oxygen Cylinders,233,185,20,3
+Fortis Hospital,2025-01-05,Oxygen Cylinders,233,183,2,4
+Fortis Hospital,2025-01-06,Oxygen Cylinders,233,177,6,5
+Fortis Hospital,2025-01-07,Oxygen Cylinders,233,155,22,6
+Fortis Hospital,2025-01-08,Oxygen Cylinders,233,144,11,7
+Fortis Hospital,2025-01-09,Oxygen Cylinders,233,128,16,8
+Fortis Hospital,2025-01-10,Oxygen Cylinders,233,112,16,9
+Fortis Hospital,2025-01-11,Oxygen Cylinders,233,111,1,10
+Fortis Hospital,2025-01-12,Oxygen Cylinders,233,102,9,11
+Fortis Hospital,2025-01-13,Oxygen Cylinders,233,96,6,12
+Fortis Hospital,2025-01-14,Oxygen Cylinders,233,80,16,13
+Fortis Hospital,2025-01-15,Oxygen Cylinders,233,77,3,14
+Fortis Hospital,2025-01-16,Oxygen Cylinders,233,57,20,15
+Fortis Hospital,2025-01-17,Oxygen Cylinders,233,53,4,16
+Fortis Hospital,2025-01-18,Oxygen Cylinders,233,34,19,17
+Fortis Hospital,2025-01-19,Oxygen Cylinders,233,31,3,18
+Fortis Hospital,2025-01-20,Oxygen Cylinders,233,12,19,19
+Fortis Hospital,2025-01-21,Oxygen Cylinders,233,0,20,20
+Fortis Hospital,2025-01-22,Oxygen Cylinders,233,0,7,21
+Fortis Hospital,2025-01-23,Oxygen Cylinders,233,0,20,22
+Fortis Hospital,2025-01-24,Oxygen Cylinders,233,0,9,23
+Fortis Hospital,2025-01-25,Oxygen Cylinders,233,0,1,24
+Fortis Hospital,2025-01-26,Oxygen Cylinders,233,0,8,25
+Fortis Hospital,2025-01-27,Oxygen Cylinders,233,0,7,26
+Fortis Hospital,2025-01-28,Oxygen Cylinders,233,0,18,27
+Fortis Hospital,2025-01-29,Oxygen Cylinders,233,0,8,28
+Fortis Hospital,2025-01-30,Oxygen Cylinders,233,0,1,29
+Fortis Hospital,2025-01-01,Ventilators,316,288,28,0
+Fortis Hospital,2025-01-02,Ventilators,316,263,25,1
+Fortis Hospital,2025-01-03,Ventilators,316,238,25,2
+Fortis Hospital,2025-01-04,Ventilators,316,220,18,3
+Fortis Hospital,2025-01-05,Ventilators,316,197,23,4
+Fortis Hospital,2025-01-06,Ventilators,316,167,30,5
+Fortis Hospital,2025-01-07,Ventilators,316,157,10,6
+Fortis Hospital,2025-01-08,Ventilators,316,154,3,7
+Fortis Hospital,2025-01-09,Ventilators,316,147,7,8
+Fortis Hospital,2025-01-10,Ventilators,316,119,28,9
+Fortis Hospital,2025-01-11,Ventilators,316,103,16,10
+Fortis Hospital,2025-01-12,Ventilators,316,77,26,11
+Fortis Hospital,2025-01-13,Ventilators,316,61,16,12
+Fortis Hospital,2025-01-14,Ventilators,316,36,25,13
+Fortis Hospital,2025-01-15,Ventilators,316,16,20,14
+Fortis Hospital,2025-01-16,Ventilators,316,0,28,15
+Fortis Hospital,2025-01-17,Ventilators,316,0,17,16
+Fortis Hospital,2025-01-18,Ventilators,316,0,2,17
+Fortis Hospital,2025-01-19,Ventilators,316,0,1,18
+Fortis Hospital,2025-01-20,Ventilators,316,0,16,19
+Fortis Hospital,2025-01-21,Ventilators,316,0,30,20
+Fortis Hospital,2025-01-22,Ventilators,316,0,12,21
+Fortis Hospital,2025-01-23,Ventilators,316,0,5,22
+Fortis Hospital,2025-01-24,Ventilators,316,0,5,23
+Fortis Hospital,2025-01-25,Ventilators,316,0,27,24
+Fortis Hospital,2025-01-26,Ventilators,316,0,23,25
+Fortis Hospital,2025-01-27,Ventilators,316,0,9,26
+Fortis Hospital,2025-01-28,Ventilators,316,0,9,27
+Fortis Hospital,2025-01-29,Ventilators,316,0,3,28
+Fortis Hospital,2025-01-30,Ventilators,316,0,19,29
+Fortis Hospital,2025-01-01,Syringes,353,337,16,0
+Fortis Hospital,2025-01-02,Syringes,353,334,3,1
+Fortis Hospital,2025-01-03,Syringes,353,314,20,2
+Fortis Hospital,2025-01-04,Syringes,353,290,24,3
+Fortis Hospital,2025-01-05,Syringes,353,257,33,4
+Fortis Hospital,2025-01-06,Syringes,353,233,24,5
+Fortis Hospital,2025-01-07,Syringes,353,222,11,6
+Fortis Hospital,2025-01-08,Syringes,353,214,8,7
+Fortis Hospital,2025-01-09,Syringes,353,194,20,8
+Fortis Hospital,2025-01-10,Syringes,353,169,25,9
+Fortis Hospital,2025-01-11,Syringes,353,144,25,10
+Fortis Hospital,2025-01-12,Syringes,353,115,29,11
+Fortis Hospital,2025-01-13,Syringes,353,97,18,12
+Fortis Hospital,2025-01-14,Syringes,353,79,18,13
+Fortis Hospital,2025-01-15,Syringes,353,77,2,14
+Fortis Hospital,2025-01-16,Syringes,353,61,16,15
+Fortis Hospital,2025-01-17,Syringes,353,28,33,16
+Fortis Hospital,2025-01-18,Syringes,353,24,4,17
+Fortis Hospital,2025-01-19,Syringes,353,0,33,18
+Fortis Hospital,2025-01-20,Syringes,353,0,14,19
+Fortis Hospital,2025-01-21,Syringes,353,0,21,20
+Fortis Hospital,2025-01-22,Syringes,353,0,20,21
+Fortis Hospital,2025-01-23,Syringes,353,0,8,22
+Fortis Hospital,2025-01-24,Syringes,353,0,7,23
+Fortis Hospital,2025-01-25,Syringes,353,0,3,24
+Fortis Hospital,2025-01-26,Syringes,353,0,17,25
+Fortis Hospital,2025-01-27,Syringes,353,0,33,26
+Fortis Hospital,2025-01-28,Syringes,353,0,12,27
+Fortis Hospital,2025-01-29,Syringes,353,0,22,28
+Fortis Hospital,2025-01-30,Syringes,353,0,22,29
+AIIMS Delhi,2025-01-01,ECG Machines,287,281,6,0
+AIIMS Delhi,2025-01-02,ECG Machines,287,275,6,1
+AIIMS Delhi,2025-01-03,ECG Machines,287,262,13,2
+AIIMS Delhi,2025-01-04,ECG Machines,287,243,19,3
+AIIMS Delhi,2025-01-05,ECG Machines,287,221,22,4
+AIIMS Delhi,2025-01-06,ECG Machines,287,213,8,5
+AIIMS Delhi,2025-01-07,ECG Machines,287,186,27,6
+AIIMS Delhi,2025-01-08,ECG Machines,287,159,27,7
+AIIMS Delhi,2025-01-09,ECG Machines,287,157,2,8
+AIIMS Delhi,2025-01-10,ECG Machines,287,136,21,9
+AIIMS Delhi,2025-01-11,ECG Machines,287,135,1,10
+AIIMS Delhi,2025-01-12,ECG Machines,287,120,15,11
+AIIMS Delhi,2025-01-13,ECG Machines,287,119,1,12
+AIIMS Delhi,2025-01-14,ECG Machines,287,114,5,13
+AIIMS Delhi,2025-01-15,ECG Machines,287,98,16,14
+AIIMS Delhi,2025-01-16,ECG Machines,287,79,19,15
+AIIMS Delhi,2025-01-17,ECG Machines,287,75,4,16
+AIIMS Delhi,2025-01-18,ECG Machines,287,72,3,17
+AIIMS Delhi,2025-01-19,ECG Machines,287,55,17,18
+AIIMS Delhi,2025-01-20,ECG Machines,287,38,17,19
+AIIMS Delhi,2025-01-21,ECG Machines,287,26,12,20
+AIIMS Delhi,2025-01-22,ECG Machines,287,12,14,21
+AIIMS Delhi,2025-01-23,ECG Machines,287,0,21,22
+AIIMS Delhi,2025-01-24,ECG Machines,287,0,6,23
+AIIMS Delhi,2025-01-25,ECG Machines,287,0,3,24
+AIIMS Delhi,2025-01-26,ECG Machines,287,0,9,25
+AIIMS Delhi,2025-01-27,ECG Machines,287,0,5,26
+AIIMS Delhi,2025-01-28,ECG Machines,287,0,24,27
+AIIMS Delhi,2025-01-29,ECG Machines,287,0,17,28
+AIIMS Delhi,2025-01-30,ECG Machines,287,0,14,29
+AIIMS Delhi,2025-01-01,Beds,230,227,3,0
+AIIMS Delhi,2025-01-02,Beds,230,226,1,1
+AIIMS Delhi,2025-01-03,Beds,230,206,20,2
+AIIMS Delhi,2025-01-04,Beds,230,185,21,3
+AIIMS Delhi,2025-01-05,Beds,230,184,1,4
+AIIMS Delhi,2025-01-06,Beds,230,181,3,5
+AIIMS Delhi,2025-01-07,Beds,230,163,18,6
+AIIMS Delhi,2025-01-08,Beds,230,153,10,7
+AIIMS Delhi,2025-01-09,Beds,230,131,22,8
+AIIMS Delhi,2025-01-10,Beds,230,128,3,9
+AIIMS Delhi,2025-01-11,Beds,230,120,8,10
+AIIMS Delhi,2025-01-12,Beds,230,106,14,11
+AIIMS Delhi,2025-01-13,Beds,230,88,18,12
+AIIMS Delhi,2025-01-14,Beds,230,73,15,13
+AIIMS Delhi,2025-01-15,Beds,230,51,22,14
+AIIMS Delhi,2025-01-16,Beds,230,49,2,15
+AIIMS Delhi,2025-01-17,Beds,230,39,10,16
+AIIMS Delhi,2025-01-18,Beds,230,37,2,17
+AIIMS Delhi,2025-01-19,Beds,230,20,17,18
+AIIMS Delhi,2025-01-20,Beds,230,12,8,19
+AIIMS Delhi,2025-01-21,Beds,230,11,1,20
+AIIMS Delhi,2025-01-22,Beds,230,2,9,21
+AIIMS Delhi,2025-01-23,Beds,230,0,11,22
+AIIMS Delhi,2025-01-24,Beds,230,0,22,23
+AIIMS Delhi,2025-01-25,Beds,230,0,16,24
+AIIMS Delhi,2025-01-26,Beds,230,0,7,25
+AIIMS Delhi,2025-01-27,Beds,230,0,10,26
+AIIMS Delhi,2025-01-28,Beds,230,0,3,27
+AIIMS Delhi,2025-01-29,Beds,230,0,18,28
+AIIMS Delhi,2025-01-30,Beds,230,0,13,29
+AIIMS Delhi,2025-01-01,Oxygen Cylinders,365,358,7,0
+AIIMS Delhi,2025-01-02,Oxygen Cylinders,365,338,20,1
+AIIMS Delhi,2025-01-03,Oxygen Cylinders,365,337,1,2
+AIIMS Delhi,2025-01-04,Oxygen Cylinders,365,329,8,3
+AIIMS Delhi,2025-01-05,Oxygen Cylinders,365,313,16,4
+AIIMS Delhi,2025-01-06,Oxygen Cylinders,365,299,14,5
+AIIMS Delhi,2025-01-07,Oxygen Cylinders,365,287,12,6
+AIIMS Delhi,2025-01-08,Oxygen Cylinders,365,264,23,7
+AIIMS Delhi,2025-01-09,Oxygen Cylinders,365,249,15,8
+AIIMS Delhi,2025-01-10,Oxygen Cylinders,365,221,28,9
+AIIMS Delhi,2025-01-11,Oxygen Cylinders,365,187,34,10
+AIIMS Delhi,2025-01-12,Oxygen Cylinders,365,185,2,11
+AIIMS Delhi,2025-01-13,Oxygen Cylinders,365,153,32,12
+AIIMS Delhi,2025-01-14,Oxygen Cylinders,365,130,23,13
+AIIMS Delhi,2025-01-15,Oxygen Cylinders,365,108,22,14
+AIIMS Delhi,2025-01-16,Oxygen Cylinders,365,83,25,15
+AIIMS Delhi,2025-01-17,Oxygen Cylinders,365,61,22,16
+AIIMS Delhi,2025-01-18,Oxygen Cylinders,365,39,22,17
+AIIMS Delhi,2025-01-19,Oxygen Cylinders,365,33,6,18
+AIIMS Delhi,2025-01-20,Oxygen Cylinders,365,18,15,19
+AIIMS Delhi,2025-01-21,Oxygen Cylinders,365,0,33,20
+AIIMS Delhi,2025-01-22,Oxygen Cylinders,365,0,8,21
+AIIMS Delhi,2025-01-23,Oxygen Cylinders,365,0,5,22
+AIIMS Delhi,2025-01-24,Oxygen Cylinders,365,0,4,23
+AIIMS Delhi,2025-01-25,Oxygen Cylinders,365,0,6,24
+AIIMS Delhi,2025-01-26,Oxygen Cylinders,365,0,32,25
+AIIMS Delhi,2025-01-27,Oxygen Cylinders,365,0,30,26
+AIIMS Delhi,2025-01-28,Oxygen Cylinders,365,0,35,27
+AIIMS Delhi,2025-01-29,Oxygen Cylinders,365,0,16,28
+AIIMS Delhi,2025-01-30,Oxygen Cylinders,365,0,13,29
+AIIMS Delhi,2025-01-01,Ventilators,419,389,30,0
+AIIMS Delhi,2025-01-02,Ventilators,419,370,19,1
+AIIMS Delhi,2025-01-03,Ventilators,419,353,17,2
+AIIMS Delhi,2025-01-04,Ventilators,419,334,19,3
+AIIMS Delhi,2025-01-05,Ventilators,419,306,28,4
+AIIMS Delhi,2025-01-06,Ventilators,419,280,26,5
+AIIMS Delhi,2025-01-07,Ventilators,419,243,37,6
+AIIMS Delhi,2025-01-08,Ventilators,419,217,26,7
+AIIMS Delhi,2025-01-09,Ventilators,419,194,23,8
+AIIMS Delhi,2025-01-10,Ventilators,419,185,9,9
+AIIMS Delhi,2025-01-11,Ventilators,419,173,12,10
+AIIMS Delhi,2025-01-12,Ventilators,419,172,1,11
+AIIMS Delhi,2025-01-13,Ventilators,419,171,1,12
+AIIMS Delhi,2025-01-14,Ventilators,419,137,34,13
+AIIMS Delhi,2025-01-15,Ventilators,419,105,32,14
+AIIMS Delhi,2025-01-16,Ventilators,419,80,25,15
+AIIMS Delhi,2025-01-17,Ventilators,419,40,40,16
+AIIMS Delhi,2025-01-18,Ventilators,419,39,1,17
+AIIMS Delhi,2025-01-19,Ventilators,419,23,16,18
+AIIMS Delhi,2025-01-20,Ventilators,419,0,39,19
+AIIMS Delhi,2025-01-21,Ventilators,419,0,5,20
+AIIMS Delhi,2025-01-22,Ventilators,419,0,22,21
+AIIMS Delhi,2025-01-23,Ventilators,419,0,29,22
+AIIMS Delhi,2025-01-24,Ventilators,419,0,3,23
+AIIMS Delhi,2025-01-25,Ventilators,419,0,12,24
+AIIMS Delhi,2025-01-26,Ventilators,419,0,26,25
+AIIMS Delhi,2025-01-27,Ventilators,419,0,16,26
+AIIMS Delhi,2025-01-28,Ventilators,419,0,37,27
+AIIMS Delhi,2025-01-29,Ventilators,419,0,22,28
+AIIMS Delhi,2025-01-30,Ventilators,419,0,29,29
+AIIMS Delhi,2025-01-01,Syringes,269,264,5,0
+AIIMS Delhi,2025-01-02,Syringes,269,249,15,1
+AIIMS Delhi,2025-01-03,Syringes,269,232,17,2
+AIIMS Delhi,2025-01-04,Syringes,269,218,14,3
+AIIMS Delhi,2025-01-05,Syringes,269,198,20,4
+AIIMS Delhi,2025-01-06,Syringes,269,193,5,5
+AIIMS Delhi,2025-01-07,Syringes,269,181,12,6
+AIIMS Delhi,2025-01-08,Syringes,269,165,16,7
+AIIMS Delhi,2025-01-09,Syringes,269,149,16,8
+AIIMS Delhi,2025-01-10,Syringes,269,128,21,9
+AIIMS Delhi,2025-01-11,Syringes,269,121,7,10
+AIIMS Delhi,2025-01-12,Syringes,269,117,4,11
+AIIMS Delhi,2025-01-13,Syringes,269,116,1,12
+AIIMS Delhi,2025-01-14,Syringes,269,111,5,13
+AIIMS Delhi,2025-01-15,Syringes,269,88,23,14
+AIIMS Delhi,2025-01-16,Syringes,269,78,10,15
+AIIMS Delhi,2025-01-17,Syringes,269,56,22,16
+AIIMS Delhi,2025-01-18,Syringes,269,51,5,17
+AIIMS Delhi,2025-01-19,Syringes,269,47,4,18
+AIIMS Delhi,2025-01-20,Syringes,269,45,2,19
+AIIMS Delhi,2025-01-21,Syringes,269,25,20,20
+AIIMS Delhi,2025-01-22,Syringes,269,15,10,21
+AIIMS Delhi,2025-01-23,Syringes,269,0,19,22
+AIIMS Delhi,2025-01-24,Syringes,269,0,1,23
+AIIMS Delhi,2025-01-25,Syringes,269,0,24,24
+AIIMS Delhi,2025-01-26,Syringes,269,0,5,25
+AIIMS Delhi,2025-01-27,Syringes,269,0,13,26
+AIIMS Delhi,2025-01-28,Syringes,269,0,4,27
+AIIMS Delhi,2025-01-29,Syringes,269,0,16,28
+AIIMS Delhi,2025-01-30,Syringes,269,0,24,29
+Medanta,2025-01-01,ECG Machines,385,383,2,0
+Medanta,2025-01-02,ECG Machines,385,355,28,1
+Medanta,2025-01-03,ECG Machines,385,323,32,2
+Medanta,2025-01-04,ECG Machines,385,296,27,3
+Medanta,2025-01-05,ECG Machines,385,276,20,4
+Medanta,2025-01-06,ECG Machines,385,252,24,5
+Medanta,2025-01-07,ECG Machines,385,240,12,6
+Medanta,2025-01-08,ECG Machines,385,205,35,7
+Medanta,2025-01-09,ECG Machines,385,172,33,8
+Medanta,2025-01-10,ECG Machines,385,139,33,9
+Medanta,2025-01-11,ECG Machines,385,102,37,10
+Medanta,2025-01-12,ECG Machines,385,90,12,11
+Medanta,2025-01-13,ECG Machines,385,87,3,12
+Medanta,2025-01-14,ECG Machines,385,86,1,13
+Medanta,2025-01-15,ECG Machines,385,53,33,14
+Medanta,2025-01-16,ECG Machines,385,43,10,15
+Medanta,2025-01-17,ECG Machines,385,14,29,16
+Medanta,2025-01-18,ECG Machines,385,1,13,17
+Medanta,2025-01-19,ECG Machines,385,0,12,18
+Medanta,2025-01-20,ECG Machines,385,0,31,19
+Medanta,2025-01-21,ECG Machines,385,0,2,20
+Medanta,2025-01-22,ECG Machines,385,0,35,21
+Medanta,2025-01-23,ECG Machines,385,0,23,22
+Medanta,2025-01-24,ECG Machines,385,0,17,23
+Medanta,2025-01-25,ECG Machines,385,0,26,24
+Medanta,2025-01-26,ECG Machines,385,0,8,25
+Medanta,2025-01-27,ECG Machines,385,0,29,26
+Medanta,2025-01-28,ECG Machines,385,0,26,27
+Medanta,2025-01-29,ECG Machines,385,0,10,28
+Medanta,2025-01-30,ECG Machines,385,0,26,29
+Medanta,2025-01-01,Beds,467,426,41,0
+Medanta,2025-01-02,Beds,467,419,7,1
+Medanta,2025-01-03,Beds,467,415,4,2
+Medanta,2025-01-04,Beds,467,370,45,3
+Medanta,2025-01-05,Beds,467,359,11,4
+Medanta,2025-01-06,Beds,467,330,29,5
+Medanta,2025-01-07,Beds,467,294,36,6
+Medanta,2025-01-08,Beds,467,269,25,7
+Medanta,2025-01-09,Beds,467,248,21,8
+Medanta,2025-01-10,Beds,467,212,36,9
+Medanta,2025-01-11,Beds,467,202,10,10
+Medanta,2025-01-12,Beds,467,165,37,11
+Medanta,2025-01-13,Beds,467,156,9,12
+Medanta,2025-01-14,Beds,467,132,24,13
+Medanta,2025-01-15,Beds,467,97,35,14
+Medanta,2025-01-16,Beds,467,62,35,15
+Medanta,2025-01-17,Beds,467,26,36,16
+Medanta,2025-01-18,Beds,467,8,18,17
+Medanta,2025-01-19,Beds,467,0,39,18
+Medanta,2025-01-20,Beds,467,0,32,19
+Medanta,2025-01-21,Beds,467,0,24,20
+Medanta,2025-01-22,Beds,467,0,23,21
+Medanta,2025-01-23,Beds,467,0,32,22
+Medanta,2025-01-24,Beds,467,0,37,23
+Medanta,2025-01-25,Beds,467,0,12,24
+Medanta,2025-01-26,Beds,467,0,13,25
+Medanta,2025-01-27,Beds,467,0,23,26
+Medanta,2025-01-28,Beds,467,0,25,27
+Medanta,2025-01-29,Beds,467,0,35,28
+Medanta,2025-01-30,Beds,467,0,41,29
+Medanta,2025-01-01,Oxygen Cylinders,335,318,17,0
+Medanta,2025-01-02,Oxygen Cylinders,335,301,17,1
+Medanta,2025-01-03,Oxygen Cylinders,335,271,30,2
+Medanta,2025-01-04,Oxygen Cylinders,335,251,20,3
+Medanta,2025-01-05,Oxygen Cylinders,335,235,16,4
+Medanta,2025-01-06,Oxygen Cylinders,335,210,25,5
+Medanta,2025-01-07,Oxygen Cylinders,335,188,22,6
+Medanta,2025-01-08,Oxygen Cylinders,335,175,13,7
+Medanta,2025-01-09,Oxygen Cylinders,335,148,27,8
+Medanta,2025-01-10,Oxygen Cylinders,335,129,19,9
+Medanta,2025-01-11,Oxygen Cylinders,335,112,17,10
+Medanta,2025-01-12,Oxygen Cylinders,335,108,4,11
+Medanta,2025-01-13,Oxygen Cylinders,335,96,12,12
+Medanta,2025-01-14,Oxygen Cylinders,335,67,29,13
+Medanta,2025-01-15,Oxygen Cylinders,335,58,9,14
+Medanta,2025-01-16,Oxygen Cylinders,335,39,19,15
+Medanta,2025-01-17,Oxygen Cylinders,335,27,12,16
+Medanta,2025-01-18,Oxygen Cylinders,335,18,9,17
+Medanta,2025-01-19,Oxygen Cylinders,335,11,7,18
+Medanta,2025-01-20,Oxygen Cylinders,335,0,28,19
+Medanta,2025-01-21,Oxygen Cylinders,335,0,14,20
+Medanta,2025-01-22,Oxygen Cylinders,335,0,31,21
+Medanta,2025-01-23,Oxygen Cylinders,335,0,32,22
+Medanta,2025-01-24,Oxygen Cylinders,335,0,20,23
+Medanta,2025-01-25,Oxygen Cylinders,335,0,19,24
+Medanta,2025-01-26,Oxygen Cylinders,335,0,26,25
+Medanta,2025-01-27,Oxygen Cylinders,335,0,15,26
+Medanta,2025-01-28,Oxygen Cylinders,335,0,16,27
+Medanta,2025-01-29,Oxygen Cylinders,335,0,21,28
+Medanta,2025-01-30,Oxygen Cylinders,335,0,5,29
+Medanta,2025-01-01,Ventilators,148,136,12,0
+Medanta,2025-01-02,Ventilators,148,127,9,1
+Medanta,2025-01-03,Ventilators,148,123,4,2
+Medanta,2025-01-04,Ventilators,148,112,11,3
+Medanta,2025-01-05,Ventilators,148,107,5,4
+Medanta,2025-01-06,Ventilators,148,103,4,5
+Medanta,2025-01-07,Ventilators,148,98,5,6
+Medanta,2025-01-08,Ventilators,148,91,7,7
+Medanta,2025-01-09,Ventilators,148,82,9,8
+Medanta,2025-01-10,Ventilators,148,75,7,9
+Medanta,2025-01-11,Ventilators,148,62,13,10
+Medanta,2025-01-12,Ventilators,148,57,5,11
+Medanta,2025-01-13,Ventilators,148,47,10,12
+Medanta,2025-01-14,Ventilators,148,37,10,13
+Medanta,2025-01-15,Ventilators,148,30,7,14
+Medanta,2025-01-16,Ventilators,148,20,10,15
+Medanta,2025-01-17,Ventilators,148,15,5,16
+Medanta,2025-01-18,Ventilators,148,12,3,17
+Medanta,2025-01-19,Ventilators,148,5,7,18
+Medanta,2025-01-20,Ventilators,148,0,13,19
+Medanta,2025-01-21,Ventilators,148,0,11,20
+Medanta,2025-01-22,Ventilators,148,0,11,21
+Medanta,2025-01-23,Ventilators,148,0,2,22
+Medanta,2025-01-24,Ventilators,148,0,12,23
+Medanta,2025-01-25,Ventilators,148,0,9,24
+Medanta,2025-01-26,Ventilators,148,0,10,25
+Medanta,2025-01-27,Ventilators,148,0,10,26
+Medanta,2025-01-28,Ventilators,148,0,12,27
+Medanta,2025-01-29,Ventilators,148,0,1,28
+Medanta,2025-01-30,Ventilators,148,0,13,29
+Medanta,2025-01-01,Syringes,279,272,7,0
+Medanta,2025-01-02,Syringes,279,258,14,1
+Medanta,2025-01-03,Syringes,279,245,13,2
+Medanta,2025-01-04,Syringes,279,237,8,3
+Medanta,2025-01-05,Syringes,279,227,10,4
+Medanta,2025-01-06,Syringes,279,218,9,5
+Medanta,2025-01-07,Syringes,279,200,18,6
+Medanta,2025-01-08,Syringes,279,174,26,7
+Medanta,2025-01-09,Syringes,279,172,2,8
+Medanta,2025-01-10,Syringes,279,167,5,9
+Medanta,2025-01-11,Syringes,279,162,5,10
+Medanta,2025-01-12,Syringes,279,156,6,11
+Medanta,2025-01-13,Syringes,279,137,19,12
+Medanta,2025-01-14,Syringes,279,129,8,13
+Medanta,2025-01-15,Syringes,279,113,16,14
+Medanta,2025-01-16,Syringes,279,100,13,15
+Medanta,2025-01-17,Syringes,279,99,1,16
+Medanta,2025-01-18,Syringes,279,77,22,17
+Medanta,2025-01-19,Syringes,279,57,20,18
+Medanta,2025-01-20,Syringes,279,40,17,19
+Medanta,2025-01-21,Syringes,279,33,7,20
+Medanta,2025-01-22,Syringes,279,8,25,21
+Medanta,2025-01-23,Syringes,279,0,13,22
+Medanta,2025-01-24,Syringes,279,0,4,23
+Medanta,2025-01-25,Syringes,279,0,4,24
+Medanta,2025-01-26,Syringes,279,0,6,25
+Medanta,2025-01-27,Syringes,279,0,19,26
+Medanta,2025-01-28,Syringes,279,0,12,27
+Medanta,2025-01-29,Syringes,279,0,22,28
+Medanta,2025-01-30,Syringes,279,0,7,29
+Max Hospital,2025-01-01,ECG Machines,140,130,10,0
+Max Hospital,2025-01-02,ECG Machines,140,120,10,1
+Max Hospital,2025-01-03,ECG Machines,140,117,3,2
+Max Hospital,2025-01-04,ECG Machines,140,110,7,3
+Max Hospital,2025-01-05,ECG Machines,140,107,3,4
+Max Hospital,2025-01-06,ECG Machines,140,94,13,5
+Max Hospital,2025-01-07,ECG Machines,140,81,13,6
+Max Hospital,2025-01-08,ECG Machines,140,79,2,7
+Max Hospital,2025-01-09,ECG Machines,140,67,12,8
+Max Hospital,2025-01-10,ECG Machines,140,57,10,9
+Max Hospital,2025-01-11,ECG Machines,140,53,4,10
+Max Hospital,2025-01-12,ECG Machines,140,41,12,11
+Max Hospital,2025-01-13,ECG Machines,140,33,8,12
+Max Hospital,2025-01-14,ECG Machines,140,20,13,13
+Max Hospital,2025-01-15,ECG Machines,140,11,9,14
+Max Hospital,2025-01-16,ECG Machines,140,4,7,15
+Max Hospital,2025-01-17,ECG Machines,140,3,1,16
+Max Hospital,2025-01-18,ECG Machines,140,0,3,17
+Max Hospital,2025-01-19,ECG Machines,140,0,13,18
+Max Hospital,2025-01-20,ECG Machines,140,0,12,19
+Max Hospital,2025-01-21,ECG Machines,140,0,9,20
+Max Hospital,2025-01-22,ECG Machines,140,0,12,21
+Max Hospital,2025-01-23,ECG Machines,140,0,1,22
+Max Hospital,2025-01-24,ECG Machines,140,0,9,23
+Max Hospital,2025-01-25,ECG Machines,140,0,8,24
+Max Hospital,2025-01-26,ECG Machines,140,0,1,25
+Max Hospital,2025-01-27,ECG Machines,140,0,6,26
+Max Hospital,2025-01-28,ECG Machines,140,0,5,27
+Max Hospital,2025-01-29,ECG Machines,140,0,6,28
+Max Hospital,2025-01-30,ECG Machines,140,0,10,29
+Max Hospital,2025-01-01,Beds,93,88,5,0
+Max Hospital,2025-01-02,Beds,93,80,8,1
+Max Hospital,2025-01-03,Beds,93,75,5,2
+Max Hospital,2025-01-04,Beds,93,70,5,3
+Max Hospital,2025-01-05,Beds,93,63,7,4
+Max Hospital,2025-01-06,Beds,93,58,5,5
+Max Hospital,2025-01-07,Beds,93,50,8,6
+Max Hospital,2025-01-08,Beds,93,44,6,7
+Max Hospital,2025-01-09,Beds,93,39,5,8
+Max Hospital,2025-01-10,Beds,93,36,3,9
+Max Hospital,2025-01-11,Beds,93,32,4,10
+Max Hospital,2025-01-12,Beds,93,27,5,11
+Max Hospital,2025-01-13,Beds,93,23,4,12
+Max Hospital,2025-01-14,Beds,93,20,3,13
+Max Hospital,2025-01-15,Beds,93,17,3,14
+Max Hospital,2025-01-16,Beds,93,13,4,15
+Max Hospital,2025-01-17,Beds,93,12,1,16
+Max Hospital,2025-01-18,Beds,93,10,2,17
+Max Hospital,2025-01-19,Beds,93,3,7,18
+Max Hospital,2025-01-20,Beds,93,2,1,19
+Max Hospital,2025-01-21,Beds,93,1,1,20
+Max Hospital,2025-01-22,Beds,93,0,6,21
+Max Hospital,2025-01-23,Beds,93,0,7,22
+Max Hospital,2025-01-24,Beds,93,0,7,23
+Max Hospital,2025-01-25,Beds,93,0,1,24
+Max Hospital,2025-01-26,Beds,93,0,5,25
+Max Hospital,2025-01-27,Beds,93,0,6,26
+Max Hospital,2025-01-28,Beds,93,0,6,27
+Max Hospital,2025-01-29,Beds,93,0,3,28
+Max Hospital,2025-01-30,Beds,93,0,8,29
+Max Hospital,2025-01-01,Oxygen Cylinders,490,479,11,0
+Max Hospital,2025-01-02,Oxygen Cylinders,490,467,12,1
+Max Hospital,2025-01-03,Oxygen Cylinders,490,457,10,2
+Max Hospital,2025-01-04,Oxygen Cylinders,490,425,32,3
+Max Hospital,2025-01-05,Oxygen Cylinders,490,409,16,4
+Max Hospital,2025-01-06,Oxygen Cylinders,490,401,8,5
+Max Hospital,2025-01-07,Oxygen Cylinders,490,363,38,6
+Max Hospital,2025-01-08,Oxygen Cylinders,490,351,12,7
+Max Hospital,2025-01-09,Oxygen Cylinders,490,327,24,8
+Max Hospital,2025-01-10,Oxygen Cylinders,490,299,28,9
+Max Hospital,2025-01-11,Oxygen Cylinders,490,291,8,10
+Max Hospital,2025-01-12,Oxygen Cylinders,490,263,28,11
+Max Hospital,2025-01-13,Oxygen Cylinders,490,227,36,12
+Max Hospital,2025-01-14,Oxygen Cylinders,490,201,26,13
+Max Hospital,2025-01-15,Oxygen Cylinders,490,193,8,14
+Max Hospital,2025-01-16,Oxygen Cylinders,490,165,28,15
+Max Hospital,2025-01-17,Oxygen Cylinders,490,137,28,16
+Max Hospital,2025-01-18,Oxygen Cylinders,490,100,37,17
+Max Hospital,2025-01-19,Oxygen Cylinders,490,59,41,18
+Max Hospital,2025-01-20,Oxygen Cylinders,490,23,36,19
+Max Hospital,2025-01-21,Oxygen Cylinders,490,0,27,20
+Max Hospital,2025-01-22,Oxygen Cylinders,490,0,17,21
+Max Hospital,2025-01-23,Oxygen Cylinders,490,0,9,22
+Max Hospital,2025-01-24,Oxygen Cylinders,490,0,33,23
+Max Hospital,2025-01-25,Oxygen Cylinders,490,0,20,24
+Max Hospital,2025-01-26,Oxygen Cylinders,490,0,13,25
+Max Hospital,2025-01-27,Oxygen Cylinders,490,0,28,26
+Max Hospital,2025-01-28,Oxygen Cylinders,490,0,48,27
+Max Hospital,2025-01-29,Oxygen Cylinders,490,0,29,28
+Max Hospital,2025-01-30,Oxygen Cylinders,490,0,13,29
+Max Hospital,2025-01-01,Ventilators,95,92,3,0
+Max Hospital,2025-01-02,Ventilators,95,87,5,1
+Max Hospital,2025-01-03,Ventilators,95,81,6,2
+Max Hospital,2025-01-04,Ventilators,95,79,2,3
+Max Hospital,2025-01-05,Ventilators,95,76,3,4
+Max Hospital,2025-01-06,Ventilators,95,68,8,5
+Max Hospital,2025-01-07,Ventilators,95,63,5,6
+Max Hospital,2025-01-08,Ventilators,95,56,7,7
+Max Hospital,2025-01-09,Ventilators,95,55,1,8
+Max Hospital,2025-01-10,Ventilators,95,53,2,9
+Max Hospital,2025-01-11,Ventilators,95,51,2,10
+Max Hospital,2025-01-12,Ventilators,95,43,8,11
+Max Hospital,2025-01-13,Ventilators,95,37,6,12
+Max Hospital,2025-01-14,Ventilators,95,35,2,13
+Max Hospital,2025-01-15,Ventilators,95,32,3,14
+Max Hospital,2025-01-16,Ventilators,95,27,5,15
+Max Hospital,2025-01-17,Ventilators,95,22,5,16
+Max Hospital,2025-01-18,Ventilators,95,15,7,17
+Max Hospital,2025-01-19,Ventilators,95,7,8,18
+Max Hospital,2025-01-20,Ventilators,95,6,1,19
+Max Hospital,2025-01-21,Ventilators,95,0,6,20
+Max Hospital,2025-01-22,Ventilators,95,0,1,21
+Max Hospital,2025-01-23,Ventilators,95,0,2,22
+Max Hospital,2025-01-24,Ventilators,95,0,8,23
+Max Hospital,2025-01-25,Ventilators,95,0,7,24
+Max Hospital,2025-01-26,Ventilators,95,0,1,25
+Max Hospital,2025-01-27,Ventilators,95,0,3,26
+Max Hospital,2025-01-28,Ventilators,95,0,5,27
+Max Hospital,2025-01-29,Ventilators,95,0,2,28
+Max Hospital,2025-01-30,Ventilators,95,0,7,29
+Max Hospital,2025-01-01,Syringes,266,244,22,0
+Max Hospital,2025-01-02,Syringes,266,227,17,1
+Max Hospital,2025-01-03,Syringes,266,214,13,2
+Max Hospital,2025-01-04,Syringes,266,213,1,3
+Max Hospital,2025-01-05,Syringes,266,211,2,4
+Max Hospital,2025-01-06,Syringes,266,202,9,5
+Max Hospital,2025-01-07,Syringes,266,199,3,6
+Max Hospital,2025-01-08,Syringes,266,198,1,7
+Max Hospital,2025-01-09,Syringes,266,177,21,8
+Max Hospital,2025-01-10,Syringes,266,161,16,9
+Max Hospital,2025-01-11,Syringes,266,138,23,10
+Max Hospital,2025-01-12,Syringes,266,132,6,11
+Max Hospital,2025-01-13,Syringes,266,115,17,12
+Max Hospital,2025-01-14,Syringes,266,110,5,13
+Max Hospital,2025-01-15,Syringes,266,105,5,14
+Max Hospital,2025-01-16,Syringes,266,99,6,15
+Max Hospital,2025-01-17,Syringes,266,96,3,16
+Max Hospital,2025-01-18,Syringes,266,75,21,17
+Max Hospital,2025-01-19,Syringes,266,52,23,18
+Max Hospital,2025-01-20,Syringes,266,47,5,19
+Max Hospital,2025-01-21,Syringes,266,26,21,20
+Max Hospital,2025-01-22,Syringes,266,21,5,21
+Max Hospital,2025-01-23,Syringes,266,11,10,22
+Max Hospital,2025-01-24,Syringes,266,1,10,23
+Max Hospital,2025-01-25,Syringes,266,0,19,24
+Max Hospital,2025-01-26,Syringes,266,0,17,25
+Max Hospital,2025-01-27,Syringes,266,0,21,26
+Max Hospital,2025-01-28,Syringes,266,0,14,27
+Max Hospital,2025-01-29,Syringes,266,0,9,28
+Max Hospital,2025-01-30,Syringes,266,0,14,29
